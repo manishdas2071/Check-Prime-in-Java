@@ -1,7 +1,7 @@
-
-
-
-
+num = int(input("enter a number: "))
+tag = 0
+if num<= 1:
+  print("not a prime number")
 else:
   for i in rang (2, num):
     if (num%i == 0):
